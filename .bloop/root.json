@@ -1,0 +1,1434 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "/nfs/home/hukangjia/minimal-diplomacy",
+        "workspaceDir": "/nfs/home/hukangjia/minimal-diplomacy",
+        "sources": [
+            "/nfs/home/hukangjia/minimal-diplomacy/src/main/scala",
+            "/nfs/home/hukangjia/minimal-diplomacy/src/main/scala-2.12",
+            "/nfs/home/hukangjia/minimal-diplomacy/src/main/scala-2",
+            "/nfs/home/hukangjia/minimal-diplomacy/src/main/java",
+            "/nfs/home/hukangjia/minimal-diplomacy/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/chisel3_2.12/3.2.6/chisel3_2.12-3.2.6.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/chisel-iotesters_2.12/1.2.10/chisel-iotesters_2.12-1.2.10.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/dsptools_2.12/1.1.9/dsptools_2.12-1.1.9.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/oss.sonatype.org/content/repositories/snapshots/edu/berkeley/cs/rocketchip_2.12/1.2-SNAPSHOT/rocketchip_2.12-1.2-SNAPSHOT.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/firrtl_2.12/1.2.6/firrtl_2.12-1.2.6.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze_2.12/0.13.2/breeze_2.12-0.13.2.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze-natives_2.12/0.13/breeze-natives_2.12-0.13.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze-viz_2.12/0.13/breeze-viz_2.12-0.13.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.0/jackson-module-scala_2.12-2.10.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/scopt/scopt_2.12/3.7.1/scopt_2.12-3.7.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/firrtl-interpreter_2.12/1.1.7/firrtl-interpreter_2.12-1.1.7.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/treadle_2.12/1.0.5/treadle_2.12-1.0.5.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalacheck/scalacheck_2.12/1.13.4/scalacheck_2.12-1.13.4.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/spire_2.12/0.14.1/spire_2.12-0.14.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-jackson_2.12/3.6.1/json4s-jackson_2.12-3.6.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/net/jcazevedo/moultingyaml_2.12/0.4.1/moultingyaml_2.12-0.4.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-native_2.12/3.6.7/json4s-native_2.12-3.6.7.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/apache/commons/commons-text/1.7/commons-text-1.7.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze-macros_2.12/0.13.2/breeze-macros_2.12-0.13.2.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/spire-math/spire_2.12/0.13.0/spire_2.12-0.13.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/jfree/jcommon/1.0.16/jcommon-1.0.16.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/jfree/jfreechart/1.0.13/jfreechart-1.0.13.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/apache/xmlgraphics/xmlgraphics-commons/1.3.1/xmlgraphics-commons-1.3.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/lowagie/itext/2.1.5/itext-2.1.5.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.0/jackson-module-paranamer-2.10.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/spire-macros_2.12/0.14.1/spire-macros_2.12-0.14.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/algebra_2.12/0.7.0/algebra_2.12-0.7.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-core_2.12/3.6.7/json4s-core_2.12-3.6.7.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/nscala-time/nscala-time_2.12/2.22.0/nscala-time_2.12-2.22.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/junit/junit/4.8.2/junit-4.8.2.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/spire-math/spire-macros_2.12/0.13.0/spire-macros_2.12-0.13.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-natives.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/commons-io/commons-io/1.3.1/commons-io-1.3.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-ast_2.12/3.6.7/json4s-ast_2.12-3.6.7.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-scalap_2.12/3.6.7/json4s-scalap_2.12-3.6.7.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar",
+            "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/jniloader/1.1/jniloader-1.1.jar"
+        ],
+        "out": "/nfs/home/hukangjia/minimal-diplomacy/.bloop/root",
+        "classesDir": "/nfs/home/hukangjia/minimal-diplomacy/.bloop/root/scala-2.12/classes",
+        "resources": [
+            "/nfs/home/hukangjia/minimal-diplomacy/src/main/resources",
+            "/nfs/home/hukangjia/minimal-diplomacy/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.6",
+            "options": [
+                "-Xsource:2.11",
+                "-Xplugin:/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalamacros/paradise_2.12.6/2.1.0/paradise_2.12.6-2.1.0.jar"
+            ],
+            "jars": [
+                "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar",
+                "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6.jar",
+                "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.jar",
+                "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar",
+                "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/jline/jline/2.14.6/jline-2.14.6.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-source",
+                "1.8",
+                "-target",
+                "1.8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "options": [
+                    "-Duser.dir=/nfs/home/hukangjia/minimal-diplomacy"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "edu.berkeley.cs",
+                    "name": "chisel3_2.12",
+                    "version": "3.2.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "chisel3_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/chisel3_2.12/3.2.6/chisel3_2.12-3.2.6.jar"
+                        },
+                        {
+                            "name": "chisel3_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/chisel3_2.12/3.2.6/chisel3_2.12-3.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "edu.berkeley.cs",
+                    "name": "chisel-iotesters_2.12",
+                    "version": "1.2.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "chisel-iotesters_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/chisel-iotesters_2.12/1.2.10/chisel-iotesters_2.12-1.2.10.jar"
+                        },
+                        {
+                            "name": "chisel-iotesters_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/chisel-iotesters_2.12/1.2.10/chisel-iotesters_2.12-1.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "edu.berkeley.cs",
+                    "name": "dsptools_2.12",
+                    "version": "1.1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "dsptools_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/dsptools_2.12/1.1.9/dsptools_2.12-1.1.9.jar"
+                        },
+                        {
+                            "name": "dsptools_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/dsptools_2.12/1.1.9/dsptools_2.12-1.1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "edu.berkeley.cs",
+                    "name": "rocketchip_2.12",
+                    "version": "1.2-SNAPSHOT",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "rocketchip_2.12",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "018d0e7dbfe7d277694e72fb431d71aea689b683"
+                            },
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/oss.sonatype.org/content/repositories/snapshots/edu/berkeley/cs/rocketchip_2.12/1.2-SNAPSHOT/rocketchip_2.12-1.2-SNAPSHOT.jar"
+                        },
+                        {
+                            "name": "rocketchip_2.12",
+                            "classifier": "sources",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "33e5bcec89cc39876bef2747b098bded9331f636"
+                            },
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/oss.sonatype.org/content/repositories/snapshots/edu/berkeley/cs/rocketchip_2.12/1.2-SNAPSHOT/rocketchip_2.12-1.2-SNAPSHOT-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "edu.berkeley.cs",
+                    "name": "firrtl_2.12",
+                    "version": "1.2.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "firrtl_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/firrtl_2.12/1.2.6/firrtl_2.12-1.2.6.jar"
+                        },
+                        {
+                            "name": "firrtl_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/firrtl_2.12/1.2.6/firrtl_2.12-1.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalanlp",
+                    "name": "breeze_2.12",
+                    "version": "0.13.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "breeze_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze_2.12/0.13.2/breeze_2.12-0.13.2.jar"
+                        },
+                        {
+                            "name": "breeze_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze_2.12/0.13.2/breeze_2.12-0.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalanlp",
+                    "name": "breeze-natives_2.12",
+                    "version": "0.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "breeze-natives_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze-natives_2.12/0.13/breeze-natives_2.12-0.13.jar"
+                        },
+                        {
+                            "name": "breeze-natives_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze-natives_2.12/0.13/breeze-natives_2.12-0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalanlp",
+                    "name": "breeze-viz_2.12",
+                    "version": "0.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "breeze-viz_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze-viz_2.12/0.13/breeze-viz_2.12-0.13.jar"
+                        },
+                        {
+                            "name": "breeze-viz_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze-viz_2.12/0.13/breeze-viz_2.12-0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-scala_2.12",
+                    "version": "2.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-scala_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.0/jackson-module-scala_2.12-2.10.0.jar"
+                        },
+                        {
+                            "name": "jackson-module-scala_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.0/jackson-module-scala_2.12-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.scopt",
+                    "name": "scopt_2.12",
+                    "version": "3.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scopt_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/scopt/scopt_2.12/3.7.1/scopt_2.12-3.7.1.jar"
+                        },
+                        {
+                            "name": "scopt_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/scopt/scopt_2.12/3.7.1/scopt_2.12-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "edu.berkeley.cs",
+                    "name": "firrtl-interpreter_2.12",
+                    "version": "1.1.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "firrtl-interpreter_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/firrtl-interpreter_2.12/1.1.7/firrtl-interpreter_2.12-1.1.7.jar"
+                        },
+                        {
+                            "name": "firrtl-interpreter_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/firrtl-interpreter_2.12/1.1.7/firrtl-interpreter_2.12-1.1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "edu.berkeley.cs",
+                    "name": "treadle_2.12",
+                    "version": "1.0.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "treadle_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/treadle_2.12/1.0.5/treadle_2.12-1.0.5.jar"
+                        },
+                        {
+                            "name": "treadle_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/edu/berkeley/cs/treadle_2.12/1.0.5/treadle_2.12-1.0.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.12",
+                    "version": "3.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar"
+                        },
+                        {
+                            "name": "scalatest_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalacheck",
+                    "name": "scalacheck_2.12",
+                    "version": "1.13.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalacheck_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalacheck/scalacheck_2.12/1.13.4/scalacheck_2.12-1.13.4.jar"
+                        },
+                        {
+                            "name": "scalacheck_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalacheck/scalacheck_2.12/1.13.4/scalacheck_2.12-1.13.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "spire_2.12",
+                    "version": "0.14.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spire_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/spire_2.12/0.14.1/spire_2.12-0.14.1.jar"
+                        },
+                        {
+                            "name": "spire_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/spire_2.12/0.14.1/spire_2.12-0.14.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-jackson_2.12",
+                    "version": "3.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-jackson_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-jackson_2.12/3.6.1/json4s-jackson_2.12-3.6.1.jar"
+                        },
+                        {
+                            "name": "json4s-jackson_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-jackson_2.12/3.6.1/json4s-jackson_2.12-3.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr4-runtime",
+                    "version": "4.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "antlr4-runtime",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1.jar"
+                        },
+                        {
+                            "name": "antlr4-runtime",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.protobuf",
+                    "name": "protobuf-java",
+                    "version": "3.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "protobuf-java",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.jar"
+                        },
+                        {
+                            "name": "protobuf-java",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.scala-logging",
+                    "name": "scala-logging_2.12",
+                    "version": "3.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-logging_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0.jar"
+                        },
+                        {
+                            "name": "scala-logging_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.jcazevedo",
+                    "name": "moultingyaml_2.12",
+                    "version": "0.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "moultingyaml_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/net/jcazevedo/moultingyaml_2.12/0.4.1/moultingyaml_2.12-0.4.1.jar"
+                        },
+                        {
+                            "name": "moultingyaml_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/net/jcazevedo/moultingyaml_2.12/0.4.1/moultingyaml_2.12-0.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-native_2.12",
+                    "version": "3.6.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-native_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-native_2.12/3.6.7/json4s-native_2.12-3.6.7.jar"
+                        },
+                        {
+                            "name": "json4s-native_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-native_2.12/3.6.7/json4s-native_2.12-3.6.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-text",
+                    "version": "1.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-text",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/apache/commons/commons-text/1.7/commons-text-1.7.jar"
+                        },
+                        {
+                            "name": "commons-text",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/apache/commons/commons-text/1.7/commons-text-1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalanlp",
+                    "name": "breeze-macros_2.12",
+                    "version": "0.13.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "breeze-macros_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze-macros_2.12/0.13.2/breeze-macros_2.12-0.13.2.jar"
+                        },
+                        {
+                            "name": "breeze-macros_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalanlp/breeze-macros_2.12/0.13.2/breeze-macros_2.12-0.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.fommil.netlib",
+                    "name": "core",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "core",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar"
+                        },
+                        {
+                            "name": "core",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.f2j",
+                    "name": "arpack_combined_all",
+                    "version": "0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "arpack_combined_all",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sf.opencsv",
+                    "name": "opencsv",
+                    "version": "2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "opencsv",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar"
+                        },
+                        {
+                            "name": "opencsv",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.rwl",
+                    "name": "jtransforms",
+                    "version": "2.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jtransforms",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar"
+                        },
+                        {
+                            "name": "jtransforms",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-math3",
+                    "version": "3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-math3",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar"
+                        },
+                        {
+                            "name": "commons-math3",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.spire-math",
+                    "name": "spire_2.12",
+                    "version": "0.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spire_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/spire-math/spire_2.12/0.13.0/spire_2.12-0.13.0.jar"
+                        },
+                        {
+                            "name": "spire_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/spire-math/spire_2.12/0.13.0/spire_2.12-0.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.chuusai",
+                    "name": "shapeless_2.12",
+                    "version": "2.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "shapeless_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.jar"
+                        },
+                        {
+                            "name": "shapeless_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.25",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jfree",
+                    "name": "jcommon",
+                    "version": "1.0.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jcommon",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/jfree/jcommon/1.0.16/jcommon-1.0.16.jar"
+                        },
+                        {
+                            "name": "jcommon",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/jfree/jcommon/1.0.16/jcommon-1.0.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jfree",
+                    "name": "jfreechart",
+                    "version": "1.0.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jfreechart",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/jfree/jfreechart/1.0.13/jfreechart-1.0.13.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.xmlgraphics",
+                    "name": "xmlgraphics-commons",
+                    "version": "1.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xmlgraphics-commons",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/apache/xmlgraphics/xmlgraphics-commons/1.3.1/xmlgraphics-commons-1.3.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lowagie",
+                    "name": "itext",
+                    "version": "2.1.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "itext",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/lowagie/itext/2.1.5/itext-2.1.5.jar"
+                        },
+                        {
+                            "name": "itext",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/lowagie/itext/2.1.5/itext-2.1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-paranamer",
+                    "version": "2.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-paranamer",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.0/jackson-module-paranamer-2.10.0.jar"
+                        },
+                        {
+                            "name": "jackson-module-paranamer",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.0/jackson-module-paranamer-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-jline",
+                    "version": "2.12.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-jline",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1.jar"
+                        },
+                        {
+                            "name": "scala-jline",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar"
+                        },
+                        {
+                            "name": "scalactic_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "1.0.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.12",
+                    "version": "1.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "spire-macros_2.12",
+                    "version": "0.14.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spire-macros_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/spire-macros_2.12/0.14.1/spire-macros_2.12-0.14.1.jar"
+                        },
+                        {
+                            "name": "spire-macros_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/spire-macros_2.12/0.14.1/spire-macros_2.12-0.14.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "machinist_2.12",
+                    "version": "0.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "machinist_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1.jar"
+                        },
+                        {
+                            "name": "machinist_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "algebra_2.12",
+                    "version": "0.7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "algebra_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/algebra_2.12/0.7.0/algebra_2.12-0.7.0.jar"
+                        },
+                        {
+                            "name": "algebra_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/algebra_2.12/0.7.0/algebra_2.12-0.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-core_2.12",
+                    "version": "3.6.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-core_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-core_2.12/3.6.7/json4s-core_2.12-3.6.7.jar"
+                        },
+                        {
+                            "name": "json4s-core_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-core_2.12/3.6.7/json4s-core_2.12-3.6.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.nscala-time",
+                    "name": "nscala-time_2.12",
+                    "version": "2.22.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "nscala-time_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/nscala-time/nscala-time_2.12/2.22.0/nscala-time_2.12-2.22.0.jar"
+                        },
+                        {
+                            "name": "nscala-time_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/nscala-time/nscala-time_2.12/2.22.0/nscala-time_2.12-2.22.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.yaml",
+                    "name": "snakeyaml",
+                    "version": "1.24",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "snakeyaml",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar"
+                        },
+                        {
+                            "name": "snakeyaml",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/yaml/snakeyaml/1.24/snakeyaml-1.24-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "4.8.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/junit/junit/4.8.2/junit-4.8.2.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/junit/junit/4.8.2/junit-4.8.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.spire-math",
+                    "name": "spire-macros_2.12",
+                    "version": "0.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spire-macros_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/spire-math/spire-macros_2.12/0.13.0/spire-macros_2.12-0.13.0.jar"
+                        },
+                        {
+                            "name": "spire-macros_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/spire-math/spire-macros_2.12/0.13.0/spire-macros_2.12-0.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "macro-compat_2.12",
+                    "version": "1.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "macro-compat_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar"
+                        },
+                        {
+                            "name": "macro-compat_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "1.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/commons-io/commons-io/1.3.1/commons-io-1.3.1.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/commons-io/commons-io/1.3.1/commons-io-1.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "bouncycastle",
+                    "name": "bcmail-jdk14",
+                    "version": "138",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcmail-jdk14",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "bouncycastle",
+                    "name": "bcprov-jdk14",
+                    "version": "138",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcprov-jdk14",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.thoughtworks.paranamer",
+                    "name": "paranamer",
+                    "version": "2.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "paranamer",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.fusesource.jansi",
+                    "name": "jansi",
+                    "version": "1.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jansi",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar"
+                        },
+                        {
+                            "name": "jansi",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/fusesource/jansi/jansi/1.11/jansi-1.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.12",
+                    "version": "0.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-ast_2.12",
+                    "version": "3.6.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-ast_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-ast_2.12/3.6.7/json4s-ast_2.12-3.6.7.jar"
+                        },
+                        {
+                            "name": "json4s-ast_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-ast_2.12/3.6.7/json4s-ast_2.12-3.6.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-scalap_2.12",
+                    "version": "3.6.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-scalap_2.12",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-scalap_2.12/3.6.7/json4s-scalap_2.12-3.6.7.jar"
+                        },
+                        {
+                            "name": "json4s-scalap_2.12",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/json4s/json4s-scalap_2.12/3.6.7/json4s-scalap_2.12-3.6.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.10.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.joda",
+                    "name": "joda-convert",
+                    "version": "2.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-convert",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar"
+                        },
+                        {
+                            "name": "joda-convert",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/joda/joda-convert/2.2.0/joda-convert-2.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.fommil.netlib",
+                    "name": "native_ref-java",
+                    "version": "1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "native_ref-java",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar"
+                        },
+                        {
+                            "name": "native_ref-java",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.fommil.netlib",
+                    "name": "native_system-java",
+                    "version": "1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "native_system-java",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar"
+                        },
+                        {
+                            "name": "native_system-java",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.fommil",
+                    "name": "jniloader",
+                    "version": "1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jniloader",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/jniloader/1.1/jniloader-1.1.jar"
+                        },
+                        {
+                            "name": "jniloader",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/com/github/fommil/jniloader/1.1/jniloader-1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.6",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/nfs/home/hukangjia/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
